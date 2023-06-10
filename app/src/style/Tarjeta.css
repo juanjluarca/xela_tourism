@@ -1,0 +1,37 @@
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15rem;
+    width: 10rem;
+    border-radius: 15px;
+    color: #FDAF01;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.btn {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.tarjeta img{
+    height: 10rem;
+    width: 8rem;
+    margin-top: 0.5rem;
+    border-radius: 15px;
+}
+
+.tarjeta h2{
+    margin-top: 1rem;
+    color: #FDAF01;
+}
+
+.tarjeta:hover {
+    height: 16rem;
+    width: 11rem;
+    transition: all 0.25s;
+}

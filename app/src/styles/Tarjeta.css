@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 15rem;
-    width: 10rem;
+    height: 23rem;
+    width: 14rem;
     border-radius: 15px;
+    margin: .5rem;
     color: #FDAF01;
-    background-color: #fff;
+    background-color: #141414;
     overflow: hidden;
 }
 
@@ -19,8 +20,8 @@
 }
 
 .tarjeta img{
-    height: 10rem;
-    width: 8rem;
+    height: 15rem;
+    width: 12rem;
     margin-top: 0.5rem;
     border-radius: 15px;
 }
@@ -31,7 +32,5 @@
 }
 
 .tarjeta:hover {
-    height: 16rem;
-    width: 11rem;
-    transition: all 0.25s;
+    background-color: #555353;
 }

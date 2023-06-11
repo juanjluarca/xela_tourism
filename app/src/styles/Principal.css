@@ -15,6 +15,15 @@ body {
     height: 100%;
 }
 
+.menu{
+    width: 2.3em;
+    margin-top: -.6em;
+    cursor: pointer;
+    align-self: self-end;
+    margin: 2rem;
+}
+
+
 .principal h2 {
     font-size: 35px;
     font-weight: 500;

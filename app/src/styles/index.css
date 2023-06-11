@@ -1,0 +1,41 @@
+body {
+    background-color: #cc2a2a;
+}
+
+.carousel-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-card {
+    flex-basis: 30%;
+    margin-bottom: 100px;
+}
+
+.image-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-card-text {
+    color: #313030;
+}
+
+.gallery-title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}

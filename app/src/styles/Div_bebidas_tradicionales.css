@@ -5,6 +5,58 @@
 
 .Div_bebidas_tradicionales h2{
     font-size: 35px;
-    font-weight: 500
-    ;
+    font-weight: 500;
+}
+
+.btn_mas_info {
+    height: 4rem;
+    width: 9rem;
+    align-self: self-end;
+    border: none;
+    border-radius: 10px;
+    font-size: 28px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background-color: #FDAF01;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Div_bebidas_tradicionales .div_info_bebidas {
+    display: none;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: #141414;
+}
+
+.Div_bebidas_tradicionales .div_info_bebidas svg{
+    height: 2rem;
+    width: 2rem;
+    color: #fff;
+    align-self: self-end;
+}
+
+.Div_bebidas_tradicionales .div_info_bebidas h2{
+    margin: 0px;
+}
+
+.Div_bebidas_tradicionales .div_info_bebidas .parrafo{
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.Div_bebidas_tradicionales .div_info_bebidas ul{
+    padding: 0px;
+}
+
+.Div_bebidas_tradicionales .div_info_bebidas ul li{
+    list-style:none;
+}
+
+.Div_bebidas_tradicionales .div_info_bebidas ul li a{
+    font-size: 22px;
+    color: #FDAF01;
+    text-decoration: none;
 }

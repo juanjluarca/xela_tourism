@@ -5,6 +5,58 @@
 
 .Div_platillos_tradicionales h2{
     font-size: 35px;
-    font-weight: 500
-    ;
+    font-weight: 500;
+}
+
+.btn_mas_info {
+    height: 4rem;
+    width: 9rem;
+    align-self: self-end;
+    border: none;
+    border-radius: 10px;
+    font-size: 28px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background-color: #FDAF01;
+    color: #fff;
+    cursor: pointer;
+}
+
+.div_info_platillos {
+    display: none;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: #141414;
+}
+
+.div_info_platillos svg{
+    height: 2rem;
+    width: 2rem;
+    color: #fff;
+    align-self: self-end;
+}
+
+.div_info_platillos h2{
+    margin: 0px;
+}
+
+.div_info_platillos .parrafo{
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.div_info_platillos ul{
+    padding: 0px;
+}
+
+.div_info_platillos ul li{
+    list-style:none;
+}
+
+.div_info_platillos ul li a{
+    font-size: 22px;
+    color: #FDAF01;
+    text-decoration: none;
 }

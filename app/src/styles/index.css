@@ -40,6 +40,10 @@
     background-color: #141414;
 }
 
+.card {
+    border: none !important;
+}
+
 .image-card-text {
     color: #FDAF01;
 }

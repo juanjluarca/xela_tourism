@@ -64,8 +64,6 @@ const images = [
         src: 'https://lavozdexela.com/wp-content/uploads/2022/02/IMG-20220224-WA0000-1200x800_c.jpg',
         description: 'Procesiones en Quetzaltenango',
     },
-
-
     {
         src: 'https://www.guatemala.com/fotos/201611/Casa-Encanto-2-885x500.jpg',
         description: 'Casa del Encanto',
@@ -113,8 +111,8 @@ const Gallery = () => {
                         ))}
                     </div>
                 </div>
-            </Container>
-        </div>
+            </Container >
+        </div >
     );
 };
 

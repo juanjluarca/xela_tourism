@@ -69,22 +69,19 @@ const images = [
 const Principal = () => {
     return (
         <div className='body'>
-            <div>
-                <h1 className='gallery-title'>Galería de imágenes</h1>
-                <div className='carousel-container'>
-                    <Carousel autoPlay interval={4000} infiniteLoop showThumbs={false}>
-                        {images.map((image, index) => (
-                            <div key={index}>
-                                <img src={image.src} description={image.description} style={{ maxHeight: '300px', objectFit: 'cover' }} />
-                                {/* <p className="legend">{image.alt}</p> */}
-                            </div>
-                        ))}
-                    </Carousel>
-                    <button class="boton">
-                        {/* <Link to="/gallery"><p className=''>Ir a la Galería</p></Link> */}
-                        <a href='/gallery'>Ir a la Galería</a>
-                    </button>
-                </div>
+            <h1 className='gallery-title'>Galería de imágenes</h1>
+            <div className='carousel-container'>
+                <Carousel autoPlay interval={4000} infiniteLoop showThumbs={false}>
+                    {images.map((image, index) => (
+                        <div key={index}>
+                            <img src={image.src} description={image.description} style={{ maxHeight: '300px', objectFit: 'cover' }} />
+                            {/* <p className="legend">{image.alt}</p> */}
+                        </div>
+                    ))}
+                </Carousel>
+                <button class="boton">
+                    <a href='/gallery'>Ir a la Galería</a>
+                </button>
             </div>
         </div>
     );

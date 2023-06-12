@@ -55,3 +55,34 @@
     background-color: #FDAF01;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 680px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sobre_nosotros p {
+        font-size: 20px;
+        font-weight: 100;
+        margin-bottom: 4rem;
+        text-align:left;
+    }
+    
+}
+
+@media only screen and (max-width: 1500px) {
+
+    body {
+        padding: 2rem;
+    }
+
+    .sobre_nosotros ul {
+        flex-wrap: wrap;
+    }
+
+    .sobre_nosotros ul li{
+        margin: 1rem;
+    }
+
+}

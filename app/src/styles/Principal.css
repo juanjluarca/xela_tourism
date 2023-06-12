@@ -58,3 +58,11 @@ body {
 }
 
 
+@media only screen and (max-width: 680px) {
+    
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+}

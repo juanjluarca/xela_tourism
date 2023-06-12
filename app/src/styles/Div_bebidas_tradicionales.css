@@ -44,6 +44,7 @@
 
 .Div_bebidas_tradicionales .div_info_bebidas .parrafo{
     font-size: 22px;
+    text-align: justify;
     font-weight: lighter;
 }
 
@@ -59,4 +60,16 @@
     font-size: 22px;
     color: #FDAF01;
     text-decoration: none;
+}
+
+
+@media only screen and (max-width: 680px) {
+    .Div_bebidas_tradicionales .div_info_bebidas h2{
+        font-size: 27px;
+    }
+
+    .Div_bebidas_tradicionales .div_info_bebidas .parrafo{
+        font-size: 19px;
+    }
+
 }

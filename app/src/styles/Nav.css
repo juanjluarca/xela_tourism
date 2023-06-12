@@ -34,3 +34,10 @@ nav .close{
     width: 2.5em;
 }
  
+
+@media only screen and (max-width: 680px) {
+    nav {
+        width: 100%;
+    }
+
+}

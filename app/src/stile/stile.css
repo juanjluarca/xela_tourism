@@ -1,0 +1,76 @@
+*{ 
+    background-color: #000;
+    font-family: "Helvetica";
+}
+.contenedor{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    display: flex;
+    width: 8rem;
+    height: 8rem;
+    padding: 10px;
+    border-radius: 45rem;
+}
+.div_titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    color: #fff;
+    font-size: 25px;
+}
+.datos{
+    width: 100%;
+    height: 45rem;
+}
+.informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    width: 45%;
+    color: white;
+    text-align: center;
+}
+.datos_xela {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5rem;
+    height: 100%;
+    width: 100%;
+}
+.datos_xela ul{
+    text-align: center;
+}
+
+.datos_xela ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: .5rem 0;
+    font-size: 30px;
+}
+
+.datos_xela ul li img{
+    border-radius: 75px;
+    margin-right: 1rem;
+    height: 5rem;
+    width: 5rem;
+}
+
+.datos_xela ul li svg{
+    font-size: 75px;
+    margin-right: 1rem;
+}
+.img{
+    display: flex;
+    width: 45%;
+    height: 45rem;
+    border: 30px solid transparent;
+    border-radius: 50px;
+    overflow: hidden;
+}

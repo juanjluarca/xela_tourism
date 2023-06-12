@@ -6,7 +6,7 @@
     padding: 1rem;
 }
 
-.principal .btn_regresar {
+.principal .btn_regresar{
     display: flex;
     align-self: self-start;
     border: none;
@@ -19,6 +19,4 @@
     margin-top: 2rem;
     background-color: #FDAF01;
     cursor: pointer;
-    padding-left: 1.5rem;
-    padding-top: .2rem;
 }

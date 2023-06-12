@@ -18,7 +18,7 @@ function Nav() {
                 <li><a href="#">Atracciones Turisticas</a></li>
                 <li><a href="/gastronomia_Quetzalteca">Gastronomia</a></li>
                 <li><a href="#">Galeria de Fotos</a></li>
-                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="/sobre_nosotros">Sobre nosotros</a></li>
             </ul>   
         </nav>
     )

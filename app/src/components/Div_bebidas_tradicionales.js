@@ -78,8 +78,6 @@ function Div_bebidas_tradicionales() {
     )
 
 
-
-
 }
 
 export default Div_bebidas_tradicionales

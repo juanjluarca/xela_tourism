@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../styles/index.css'
@@ -62,14 +61,14 @@ const images = [
         description: 'Templo Minerva',
     },
     {
-        src: 'https://www.guatemala.com/fotos/2020/09/Lugares-turisticos-de-Quetzaltenango-Guatemala7-885x500.jpg',
-        description: 'Museo del Ferrocarril de Los Altos',
+        src: 'https://lavozdexela.com/wp-content/uploads/2022/02/IMG-20220224-WA0000-1200x800_c.jpg',
+        description: 'Procesiones en quetzaltenango',
     },
 ];
 
 const Principal = () => {
     return (
-        <div>
+        <div className='body'>
             <div>
                 <h1 className='gallery-title'>Galería de imágenes</h1>
                 <div className='carousel-container'>
@@ -81,8 +80,9 @@ const Principal = () => {
                             </div>
                         ))}
                     </Carousel>
-                    <button type="button" class="btn btn-primary">
-                        <Link to="/gallery"><p className=''>Ir a la Galería</p></Link>
+                    <button class="boton">
+                        {/* <Link to="/gallery"><p className=''>Ir a la Galería</p></Link> */}
+                        <a href='/gallery'>Ir a la Galería</a>
                     </button>
                 </div>
             </div>

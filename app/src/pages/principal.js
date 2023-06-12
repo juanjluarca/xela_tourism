@@ -1,90 +1,67 @@
-import React from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import '../styles/index.css'
+import Tarjetas from "../components/Tarjetas"
+import Div_info_basica from "../components/Div_info_basica"
+import Nav from "../components/Nav"
+import "../styles/Principal.css"
 
-const images = [
-    {
-        src: 'https://www.guatemala.com/fotos/201703/Parque-Central-Centro-America1-885x500.jpg',
-        description: 'Parque Central de Quetzaltenango',
-    },
-    {
-        src: 'https://dca.gob.gt/noticias-guatemala-diario-centro-america/wp-content/uploads/2022/01/05-DANILO-RAMÍREZ-1-1024x683.jpg',
-        description: 'Vista de la Ciudad desde Cerro El Baúl',
-    },
-    {
-        src: 'https://www.guatemala.com/fotos/2020/09/Lugares-turisticos-de-Quetzaltenango-Guatemala1-885x500.jpg',
-        description: 'Fuentes Georginas',
-    },
-    {
-        src: 'https://www.guatemala.com/fotos/2019/01/Tunel-de-Santa-Maria-885x500.jpg',
-        description: 'Túnel de Santa María',
-    },
-    {
-        src: 'https://www.guatemala.com/fotos/2019/02/Ermita-en-Quetzaltenango-885x500.jpg',
-        description: 'Ermita de La Concepción, Salcajá',
-    },
-    {
-        src: 'https://www.guatemala.com/fotos/2020/09/Lugares-turisticos-de-Quetzaltenango-Guatemala7-885x500.jpg',
-        description: 'Museo del Ferrocarril de Los Altos',
-    },
-    {
-        src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/MarioCamposecoStadium.JPG/1200px-MarioCamposecoStadium.JPG',
-        description: 'Estadio Mario Camposeco',
-    },
-    {
-        src: 'https://www.prensalibre.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-27-at-22.58.57-1.jpeg?quality=52',
-        description: 'Celebración por la Sexta Luna',
-    },
-    {
-        src: 'https://www.guatevalley.com/photo/photo_a1/1433/AcL87fs1IPxN5DTIUZOg.jpg',
-        description: 'Teatro Municipal de Quetzaltenango',
-    },
-    {
-        src: 'https://www.guatemala.com/fotos/2019/04/Museos-en-xela-885x500.jpg',
-        description: 'Museo Ixkik del Traje Maya',
-    },
-    {
-        src: 'https://viajerosocultos.com/wp-content/uploads/2022/03/49219563493_f72b7830d6_o.jpg',
-        description: 'Volcán de Santa María',
-    },
-    {
-        src: 'https://licoresdeguatemala.com/wp-content/uploads/2020/09/2-1.jpg',
-        description: 'Casa Botrán',
-    },
-    {
-        src: 'https://aprende.guatemala.com/wp-content/uploads/2016/11/Foto-de-portada-Aprende-2.jpg',
-        description: 'Volcán de Cerro Quemado',
-    },
-    {
-        src: 'https://crnnoticias.com/wp-content/uploads/2022/11/CarlosVentura-Templo-Minerva2.jpg',
-        description: 'Templo Minerva',
-    },
-    {
-        src: 'https://lavozdexela.com/wp-content/uploads/2022/02/IMG-20220224-WA0000-1200x800_c.jpg',
-        description: 'Procesiones en quetzaltenango',
-    },
-];
 
-const Principal = () => {
+function PrincipalMenu() {
+
+
+    const lugares = [
+        {
+            name: "Platanos Fritos",
+            img: "https://scontent.fgua9-1.fna.fbcdn.net/v/t1.6435-9/126990689_1532786586909756_8168370132721591089_n.jpg?stp=dst-jpg_p526x296&_nc_cat=101&cb=99be929b-3346023f&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=n-N3KjOBCH8AX9x8BxC&_nc_ht=scontent.fgua9-1.fna&oh=00_AfCN6hj9YmhI7s_tp8kJPlXn9frRaOdLXhfAC5Q5AQX_KA&oe=64ADA427"
+        },
+        {
+            name: "Cheveres",
+            img: "https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/300782995_486693410130672_90583339016234205_n.jpg?_nc_cat=106&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=4Qiw7Vr6PccAX9vPKTV&_nc_ht=scontent.fgua9-2.fna&oh=00_AfCEK78lHkWhQQHQXhOI5PnCJDIaD0azmq0Mr03y18oqyg&oe=648C1644"
+        },
+        {
+            name: "Tobitos",
+            img: "https://scontent.fgua3-3.fna.fbcdn.net/v/t39.30808-6/301373232_503365361791553_5461390449407846839_n.jpg?_nc_cat=108&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=tbJ_PBE47LwAX_d3Mcx&_nc_ht=scontent.fgua3-3.fna&oh=00_AfBjQwPast6E3oYgp3Ok5Jm-Zks42QSU9Omm8ArdzvWLNQ&oe=648A9A4A"
+        },
+        {
+            name: "Atoles del parque",
+            img: "https://tecolotito.elsiglodetorreon.com.mx/i/2016/02/793793.jpeg"
+        }
+    ]
+
+    function components() {
+        return (
+            <>
+            {
+                lugares.map(bebida => {
+                    return <Tarjetas lugar={bebida.name} img={bebida.img}/>
+                })
+            }
+            </>
+        )
+    }
+
+
+    const abrir =()=> {
+        const nav = document.querySelector("nav")
+        nav.style.display = "block"
+    }
+
+
     return (
-        <div className='body'>
-            <h1 className='gallery-title'>Galería de imágenes</h1>
-            <div className='carousel-container'>
-                <Carousel autoPlay interval={4000} infiniteLoop showThumbs={false}>
-                    {images.map((image, index) => (
-                        <div key={index}>
-                            <img src={image.src} description={image.description} style={{ maxHeight: '300px', objectFit: 'cover' }} />
-                            {/* <p className="legend">{image.alt}</p> */}
-                        </div>
-                    ))}
-                </Carousel>
-                <button class="boton">
-                    <a href='/gallery'>Ir a la Galería</a>
-                </button>
-            </div>
-        </div>
-    );
-};
+        <div className="principal">
+            
 
-export default Principal;
+            <h2>Gastronomia Quetzalteca</h2>
+            <div className="div_tarjetas">
+                {components()}
+            </div>
+            <button className="btn_moreInfo"><a href="/gastronomia_Quetzalteca">Ver más</a></button>
+            <button className="btn_moreInfo"><a href="/">Regresar</a></button>
+
+            <div className="info_practica">
+                <Div_info_basica/>
+            </div>
+
+        </div>
+    )
+}
+
+export default PrincipalMenu;

@@ -1,18 +1,23 @@
-import { BrowserRouter, Navigate,Route,Routes } from "react-router-dom";
+import React from 'react';
+import './App.css';
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import Principal from "./pages/principal";
+import Gallery from './pages/gallery';
 import Principal from "./pages/Principal";
 import Gastronomia_Quetzalteca from "./pages/Gastronomia_Quetzalteca";
 import Sobre_nosotros from "./pages/Sobre_nosotros";
 
-
 function App() {
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<Principal/>}/>
-      <Route path='/gastronomia_Quetzalteca' element={<Gastronomia_Quetzalteca/>}/>
-      <Route path='/sobre_nosotros' element={<Sobre_nosotros/>}/>
-      <Route path="*" element={<Navigate to="/" replace={true} /> } exact={true} />
-    </Routes>
+      <Routes>
+        <Route exact path="/" element={<Principal />} />
+        <Route path="/gallery" element={<Gallery />}></Route>
+        <Route path="/principal" element={<Principal />}></Route>
+        <Route path='/gastronomia_Quetzalteca' element={<Gastronomia_Quetzalteca/>}/>
+        <Route path='/sobre_nosotros' element={<Sobre_nosotros/>}/>
+        <Route path="*" element={<Navigate to="/" replace={true} /> } exact={true} />
+      </Routes>
     </BrowserRouter>
   );
   }

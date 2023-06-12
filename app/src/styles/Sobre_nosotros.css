@@ -1,0 +1,88 @@
+.sobre_nosotros {
+    margin: 2rem;
+}
+
+.sobre_nosotros h2{
+    font-size: 40px;
+    font-weight: 200;
+    color: #FDAF01;
+}
+
+.sobre_nosotros p {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 4rem;
+    text-align:justify;
+}
+
+.sobre_nosotros ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.sobre_nosotros ul li{
+    height: 20rem;
+    width: 15rem;
+    border-radius: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.sobre_nosotros ul li img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+}
+
+.sobre_nosotros ul li a{
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+    color: #FDAF01;
+}
+
+.btn_regresar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 6rem;
+    font-size: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #FDAF01;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 680px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sobre_nosotros p {
+        font-size: 20px;
+        font-weight: 100;
+        margin-bottom: 4rem;
+        text-align:left;
+    }
+    
+}
+
+@media only screen and (max-width: 1500px) {
+
+    body {
+        padding: 2rem;
+    }
+
+    .sobre_nosotros ul {
+        flex-wrap: wrap;
+    }
+
+    .sobre_nosotros ul li{
+        margin: 1rem;
+    }
+
+}

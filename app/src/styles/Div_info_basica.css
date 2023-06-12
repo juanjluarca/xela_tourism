@@ -1,0 +1,39 @@
+.info_practica {
+    height: 40rem;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.info_practica ul{
+    list-style: none;
+    margin: 2rem 0;
+}
+
+.info_practica ul li {
+    margin: 1rem 0;
+}
+
+.info_practica ul li a{
+    font-size: 25px;
+    font-weight: 200;
+    color: #fff;
+    text-decoration: none;
+}
+
+.info_practica ul li a img{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 10px;
+    margin-right: .5rem;
+    border: 4.5px solid #FDAF01;
+}
+
+
+.info_practica ul li { 
+    font-size: 25px;
+    color: #FDAF01;
+}
+
+.info_practica ul .ubicacion {
+    cursor: pointer;
+}

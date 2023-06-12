@@ -1,0 +1,22 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 1rem;
+}
+
+.principal .btn_regresar{
+    display: flex;
+    align-self: self-start;
+    border: none;
+    border-radius: 10px;
+    height: 3rem;
+    width: 6rem;
+    font-size: 40px;
+    margin: 0 2rem;
+    color: #fff;
+    margin-top: 2rem;
+    background-color: #FDAF01;
+    cursor: pointer;
+}

@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Gallery from './pages/gallery';
 import Principal from "./page/Principal";
-import MenuPrincipal from "./pages/Principal";
+import MenuPrincipal from "./pages/principal";
 import Gastronomia_Quetzalteca from "./pages/Gastronomia_Quetzalteca";
 import Sobre_nosotros from "./pages/Sobre_nosotros";
 import Direcciones from './pages/Direcciones';

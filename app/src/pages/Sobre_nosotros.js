@@ -6,7 +6,7 @@ function Sobre_nosotros() {
         <div className="sobre_nosotros">
             <h2>Sobre nosotros</h2>
             <p>Somos un grupo de 4 amigos del primer año de la carrera de ingeniera en sistemas en la universidad Rafael Landívar del campus de Quetzaltenango.
-                <br></br>Nuestra motivación para crear este sitio web es que Quetzaltenango es la segunda cuidad principal de Guatemala por lo tanto es un cuidad altamente turística, y muchas veces los turistas que nos visitan ya sean locales o extranjeros no conocen o no tiene una guía para conocer Quetzaltenango desde los lugares turísticos hasta su gastronomía y así fue como nació la idea de Xela Tour.</p>
+                <br></br>Nuestra motivación para crear este sitio web es que Quetzaltenango es la segunda cuidad principal de Guatemala por lo tanto es un cuidad altamente turística, y muchas veces los turistas que nos visitan ya sean locales o extranjeros no conocen o no tiene una guía para conocer Quetzaltenango desde los lugares turísticos hasta su gastronomía y así fue como nació la idea de Xela Tourism.</p>
             <div className="nosotros">
                 <ul>
                     <li><a target="_blank" href="https://github.com/GreciaFuent"><img src="https://avatars.githubusercontent.com/u/92612493?s=400&u=8378314388e5050cc3f0cc686a3227f7adb4cc08&v=4"></img><h3>Grecia Fuentes</h3></a></li>

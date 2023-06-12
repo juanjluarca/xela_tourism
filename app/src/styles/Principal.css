@@ -1,0 +1,68 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.menu{
+    width: 2.3em;
+    margin-top: -.6em;
+    cursor: pointer;
+    align-self: self-end;
+    margin: 2rem;
+}
+
+
+.principal h2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
+.principal .div_tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn_moreInfo {
+    height: 4rem;
+    width: 9rem;
+    align-self: self-end;
+    border: none;
+    border-radius: 10px;
+    font-size: 28px;
+    margin: 0 2rem;
+    border: none;
+    margin-top: 2rem;
+    background-color: #FDAF01;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn_moreInfo a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 680px) {
+    
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+}

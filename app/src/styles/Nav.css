@@ -1,0 +1,43 @@
+nav{
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    background: #fff;
+    width: 50%;
+}
+ 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 8em;
+}
+ 
+nav ul a {
+    font-size: 27px;
+    font-weight: 300;
+    color: #FDAF01;
+    padding: .75em 2em;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+ 
+nav ul a:hover {
+    background: #ccc;
+}
+ 
+nav .close{
+    float: right;
+    margin: 2em;
+    width: 2.5em;
+}
+ 
+
+@media only screen and (max-width: 680px) {
+    nav {
+        width: 100%;
+    }
+
+}
